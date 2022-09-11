@@ -21,7 +21,7 @@ Class ittower_simpleprops extends CModule
 
     	$arModuleVersion = array();
         include(__DIR__."/version.php");
-
+        
         $this->MODULE_VERSION = $arModuleVersion["VERSION"];
         $this->MODULE_VERSION_DATE = $arModuleVersion["VERSION_DATE"];
         $this->MODULE_DESCRIPTION = Loc::getMessage("ITTOWER_SIMPLEPROPS_MODULE_DESC");
